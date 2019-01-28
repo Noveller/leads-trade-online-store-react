@@ -1,51 +1,5 @@
 {
-  "orders": [
-    {
-      "productId": 4,
-      "quantity": 1,
-      "id": 1
-    },
-    {
-      "productId": 5,
-      "quantity": 1,
-      "id": 2
-    },
-    {
-      "productId": 11,
-      "quantity": 1,
-      "id": 3
-    },
-    {
-      "productId": 10,
-      "quantity": 1,
-      "id": 4
-    },
-    {
-      "productId": 9,
-      "quantity": 1,
-      "id": 5
-    },
-    {
-      "productId": 8,
-      "quantity": 1,
-      "id": 6
-    },
-    {
-      "productId": 7,
-      "quantity": 1,
-      "id": 7
-    },
-    {
-      "productId": 6,
-      "quantity": 1,
-      "id": 8
-    },
-    {
-      "productId": 3,
-      "quantity": 1,
-      "id": 9
-    }
-  ],
+  "orders": [],
   "products": [
     {
       "id": 1,
