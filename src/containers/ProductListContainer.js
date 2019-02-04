@@ -6,30 +6,22 @@ import Product from '../components/Product/Product'
 import * as ProductActions from "../redux/actions/product.action";
 import * as ShoppingCardActions from '../redux/actions/shoping_card.action';
 
-
 class ProductListContainer extends Component {
 
     componentDidMount() {
-
         this.props.dispatch(ProductActions.load_all());
         this.props.dispatch(ShoppingCardActions.load_all());
     }
 
     addToCard(product) {
-
         this.props.dispatch(ShoppingCardActions.add_item(product));
-
     }
 
     removeFromCard(order) {
-
         this.props.dispatch(ShoppingCardActions.remove_item(order));
-
     }
 
-
     render() {
-
         const products = this.props.products;
         const orders = this.props.shopping_card;
 

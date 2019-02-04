@@ -5,7 +5,6 @@ const LOAD_ALL = '[Product] Load All Products';
 const LOAD_ALL_SUCCESS = '[Product] Load All Products Success';
 const GET_ALL = '[Product] Get All Products';
 
-
 function fetchProducts() {
     return axios.get('http://localhost:3001/products');
 }
@@ -24,10 +23,5 @@ export const load_all = () => {
         )
     }
 };
-
-export const addTodo = content => ({
-    type: ADD_PRODUCT,
-    payload: { content }
-});
 
 export default {ADD_PRODUCT, LOAD_ALL, LOAD_ALL_SUCCESS, GET_ALL}
