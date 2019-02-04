@@ -1,10 +1,11 @@
+// @flow
 import React from 'react'
-import PropTypes from 'prop-types'
 import { Provider } from 'react-redux'
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom'
-import ProductListContainer from "../../containers/ProductListContainer";
+import ProductListContainer from "./containers/ProductListContainer";
+import type { Store } from 'redux';
 
-const Root = ({ store }) => (
+const Root = ({ store }: {store: Store}) => (
     <Provider store={store}>
         <Router>
 
@@ -19,10 +20,5 @@ const Root = ({ store }) => (
         </Router>
     </Provider>
 );
-
-
-Root.propTypes = {
-    store: PropTypes.object.isRequired
-};
 
 export default Root;
