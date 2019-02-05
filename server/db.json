@@ -21,11 +21,6 @@
       "id": 7
     },
     {
-      "productId": 3,
-      "quantity": 1,
-      "id": 8
-    },
-    {
       "productId": 7,
       "quantity": 1,
       "id": 9
@@ -99,6 +94,11 @@
       "productId": 17,
       "quantity": 1,
       "id": 23
+    },
+    {
+      "productId": 3,
+      "quantity": 1,
+      "id": 24
     }
   ],
   "products": [

@@ -8,7 +8,6 @@ import type { Store } from 'redux';
 const Root = ({ store }: {store: Store}) => (
     <Provider store={store}>
         <Router>
-
             <Switch>
                 <Route exact path="/" render={() => (
                     <Redirect to="/products"/>
